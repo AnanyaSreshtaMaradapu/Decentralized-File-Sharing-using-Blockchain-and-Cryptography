@@ -1,0 +1,217 @@
+E:\DJANGO
+│   django
+│
+└───FileSharing
+    │   BlockChain.py
+    │   GenerateKeys.py
+    │   LoadBloackChain.py
+    │   LoadBloackChain2.py
+    │   manage.py
+    │
+    ├───contracts
+    │       DataStorage.sol
+    │
+    ├───Data
+    │       db.sql
+    │       db.sql.bak
+    │       db2.sql
+    │       manage.py
+    │
+    ├───FileSharing
+    │   │   asgi.py
+    │   │   settings.py
+    │   │   urls.py
+    │   │   wsgi.py
+    │   │   __init__.py
+    │   │
+    │   └───__pycache__
+    │           settings.cpython-36.pyc
+    │           urls.cpython-36.pyc
+    │           wsgi.cpython-36.pyc
+    │           __init__.cpython-36.pyc
+    │
+    ├───Keys
+    │       26ff3c16fb979633e1ff51cc712c09d7_pk.pem
+    │       26ff3c16fb979633e1ff51cc712c09d7_sk.pem
+    │       2ae237baedf5b4e904b30e757b01ddc1_pk.pem
+    │       2ae237baedf5b4e904b30e757b01ddc1_sk.pem
+    │       999980f71be16f5c8b1e711ed2000b25_pk.pem
+    │       999980f71be16f5c8b1e711ed2000b25_sk.pem
+    │       9de3669b9596642670a9a148d7156873_pk.pem
+    │       9de3669b9596642670a9a148d7156873_sk.pem
+    │       a41e8a5edf0386f64781b1289a4e6b25_pk.pem
+    │       a41e8a5edf0386f64781b1289a4e6b25_sk.pem
+    │       ce29bc003be945f3f8389eff3f0edf4d_pk.pem
+    │       ce29bc003be945f3f8389eff3f0edf4d_sk.pem
+    │       d4384c2e7aab2c22eb805c0f48852f23_pk.pem
+    │       d4384c2e7aab2c22eb805c0f48852f23_sk.pem
+    │       e1652607c341958b1da09901ccb421cb_pk.pem
+    │       e1652607c341958b1da09901ccb421cb_sk.pem
+    │
+    ├───Models
+    │       Transactions.pkl
+    │
+    ├───webapp
+    │   │   admin.py
+    │   │   apps.py
+    │   │   BlockChain.py
+    │   │   DateTime.py
+    │   │   GenerateKeys.py
+    │   │   HashCode.py
+    │   │   LoadBloackChain.py
+    │   │   LoadBloackChain2.py
+    │   │   LoadBloackChain3.py
+    │   │   models.py
+    │   │   test.py
+    │   │   tests.py
+    │   │   text.py
+    │   │   urls.py
+    │   │   views.py
+    │   │   __init__.py
+    │   │
+    │   ├───migrations
+    │   │   │   0001_initial.py
+    │   │   │   0002_files.py
+    │   │   │   0003_auto_20240123_2002.py
+    │   │   │   0004_auto_20240123_2008.py
+    │   │   │   0005_auto_20240313_2140.py
+    │   │   │   __init__.py
+    │   │   │
+    │   │   └───__pycache__
+    │   │           0001_initial.cpython-36.pyc
+    │   │           0002_files.cpython-36.pyc
+    │   │           0003_auto_20240123_2002.cpython-36.pyc
+    │   │           0004_auto_20240123_2008.cpython-36.pyc
+    │   │           0005_auto_20240313_2140.cpython-36.pyc
+    │   │           __init__.cpython-36.pyc
+    │   │
+    │   ├───static
+    │   │   ├───css
+    │   │   │       bootstrap.min.css
+    │   │   │       font-awesome.css
+    │   │   │       font.css
+    │   │   │       jqvmap.css
+    │   │   │       lightbox.css
+    │   │   │       minimal.css
+    │   │   │       monthly.css
+    │   │   │       morris.css
+    │   │   │       style-responsive.css
+    │   │   │       style.css
+    │   │   │       style.css.bak
+    │   │   │
+    │   │   ├───fonts
+    │   │   │       fontawesome-webfont.eot
+    │   │   │       fontawesome-webfont.svg
+    │   │   │       fontawesome-webfont.ttf
+    │   │   │       fontawesome-webfont.woff
+    │   │   │       fontawesome-webfont.woff2
+    │   │   │       FontAwesome.otf
+    │   │   │       glyphicons-halflings-regular.woff
+    │   │   │       glyphicons-halflings-regular.woff2
+    │   │   │
+    │   │   ├───images
+    │   │   │       1.png
+    │   │   │       2.png
+    │   │   │       3.png
+    │   │   │       4.png
+    │   │   │       bg.jpg
+    │   │   │       bg2.jpg
+    │   │   │       close.png
+    │   │   │       g1.jpg
+    │   │   │       g2.jpg
+    │   │   │       g3.jpg
+    │   │   │       g4.jpg
+    │   │   │       g5.jpg
+    │   │   │       g6.jpg
+    │   │   │       g7.jpg
+    │   │   │       g8.jpg
+    │   │   │       g9.jpg
+    │   │   │       mail.png
+    │   │   │       minimal.png
+    │   │   │       nav-expand.png
+    │   │   │       next.png
+    │   │   │       pass.png
+    │   │   │       prev.png
+    │   │   │       search-icon.png
+    │   │   │
+    │   │   └───js
+    │   │           bootstrap.js
+    │   │           jquery.dcjqaccordion.2.7.js
+    │   │           jquery.fileupload.js
+    │   │           jquery.min.js
+    │   │           jquery.nicescroll.js
+    │   │           jquery.scrollTo.js
+    │   │           jquery.slimscroll.js
+    │   │           jquery.vmap.asia.js
+    │   │           jquery.vmap.australia.js
+    │   │           jquery.vmap.europe.js
+    │   │           jquery.vmap.js
+    │   │           jquery.vmap.sampledata.js
+    │   │           jquery.vmap.world.js
+    │   │           jquery2.0.3.min.js
+    │   │           lightbox-plus-jquery.min.js
+    │   │           monthly.js
+    │   │           morris.js
+    │   │           raphael-min.js
+    │   │           script.js
+    │   │           scripts.js
+    │   │
+    │   ├───templates
+    │   │       admin.html
+    │   │       admin.html.bak
+    │   │       admin_home.html
+    │   │       admin_home.html.bak
+    │   │       base.html
+    │   │       base.html.bak
+    │   │       base_a.html
+    │   │       base_a.html.bak
+    │   │       base_u.html
+    │   │       base_u.html.bak
+    │   │       compose.html
+    │   │       display.html
+    │   │       inbox.html
+    │   │       inbox.html.bak
+    │   │       index.html
+    │   │       index.html.bak
+    │   │       lviewfile.html
+    │   │       lviewifile.html.bak
+    │   │       signup.html
+    │   │       updateprofile.html
+    │   │       updatepwd.html
+    │   │       uploadfile.html
+    │   │       uploadfile.html.bak
+    │   │       uploadfile2.html
+    │   │       user.html
+    │   │       user_home.html
+    │   │       viewbc.html
+    │   │       viewbc.html.bak
+    │   │       viewfile.html
+    │   │       viewfiles.html
+    │   │       viewfiles.html.bak
+    │   │       viewifile.html
+    │   │       viewifile2.html
+    │   │       viewifile2.html.bak
+    │   │       viewpprofile.html
+    │   │
+    │   └───__pycache__
+    │           admin.cpython-36.pyc
+    │           BlockChain.cpython-36.pyc
+    │           Classificaion.cpython-36.pyc
+    │           DateTime.cpython-36.pyc
+    │           DBConnection.cpython-36.pyc
+    │           Detection.cpython-36.pyc
+    │           GenerateKeys.cpython-36.pyc
+    │           GetIP.cpython-36.pyc
+    │           HashCode.cpython-36.pyc
+    │           LoadBloackChain.cpython-36.pyc
+    │           LoadBloackChain2.cpython-36.pyc
+    │           Mail.cpython-36.pyc
+    │           models.cpython-36.pyc
+    │           NBAlgo.cpython-36.pyc
+    │           RandomGen.cpython-36.pyc
+    │           urls.cpython-36.pyc
+    │           views.cpython-36.pyc
+    │           __init__.cpython-36.pyc
+    │
+    └───__pycache__
+            BlockChain.cpython-36.pyc
