@@ -1,8 +1,8 @@
 import json
 import pickle  
 import BlockChain
-from BlockChain import BlockChain
-from BlockChain import Block
+from .BlockChain import BlockChain
+from .BlockChain import Block
 
 
 

@@ -1,0 +1,26 @@
+{% extends 'base_u.html' %}
+{% block content %}
+<font size="+1" color="red">{{msg}}
+<center>
+</font>
+<h2>File Upload</h2>
+<br>
+
+
+	
+<form class="w3-container" method="post" action="/fileupload/">
+	{% csrf_token %} 
+<table width="50%">
+
+                    <tr><td><strong><h4>Select Recipient</strong>
+<br>					<select name="user" class="w3-input" >
+		{% for d in data %}
+						<option value="{{d.email}}|{{d.name}}" selected>{{d.name}} | {{d.email}}
+							{% endfor %}
+					</select>
+	 					<tr><td><input type="submit" class="w3-input" value="Get Public Key"  size="50"  >
+                
+</table>
+</form><br><br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

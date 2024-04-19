@@ -1,0 +1,15 @@
+
+{% extends 'base_u.html' %}
+{% load static %}
+{% block content %}
+	<strong>{{msg}}</strong><center>
+	<h2>View File</h2><br><br>
+<table id="tab" width="90%" >
+
+					{% csrf_token %} 
+                    
+					<tr><th width="20%">Title<td>{{d.title}}	
+				<tr><th>File Data<td><textarea  class="w3-input"  name="data"  readonly rows="8" cols="">{{d.file}}</textarea>
+
+			</table>
+{% endblock %}
